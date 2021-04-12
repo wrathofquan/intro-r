@@ -89,10 +89,6 @@ animals[2:4]
 animals[-2]
 animals[6]
 
-animals
-
-animals == "dog"
-animals == "otter"
 
 has_tail
 animals
@@ -273,7 +269,7 @@ table(webster_stops$driver_race)
 
 new_col <- row.names(stops)
 stops_withnewcol <- cbind(stops, new_col)
-head(trafficstops_withnewcol)
+head(stops_withnewcol)
 
 
 # using the $ sign
