@@ -20,7 +20,7 @@ rm(weight_kg)
 a <- 64
 b <- sqrt(a)
 b
-round(3, 3.15159)
+round(3.14)
 args(round)
 
 # Getting Help ----
@@ -277,8 +277,7 @@ stops$all_false <- FALSE  # what do you think will happen here?
 # adding row with rbind
 
 new_row <- data.frame(id="MS-2017-12345", state="MS", stop_date="2017-08-24",
-                      county_name="Tallahatchie County", county_fips=12345,
-                      police_department="MSHP", driver_gender="F", driver_birthdate="1999-06-14",
+                      county_name="Tallahatchie County", county_fips=12345,                      police_department="MSHP", driver_gender="F", driver_birthdate="1999-06-14",
                       driver_race="Hispanic", violation_raw="Speeding", officer_id="ABCD")
 
 stops_withnewrow <- rbind(stops, new_row)
