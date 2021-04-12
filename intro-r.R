@@ -1,3 +1,14 @@
+# Basic operators
+
+2+2 #addition
+
+2*2 #multiplication
+
+20/2 #division
+
+2^3 #exponents
+
+
 # Objects ----
 
 weight_kg <- 55
@@ -13,7 +24,6 @@ age  <- 122             # age?
 mass <- mass * 2.0      # mass?
 age  <- age - 20        # age?
 mass_index <- mass/age  # mass_index?
-rm(weight_kg)
 
 # Functions ----
 
@@ -37,8 +47,6 @@ sessionInfo()
 "Pizza" # character
 TRUE # logical
 FALSE
-true 
-false
 T
 F
 
